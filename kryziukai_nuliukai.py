@@ -1,4 +1,12 @@
+import math
+
 tinklelis = [" " for i in range(9)]
+
+
+
+
+
+
 
 def tinklelio_eiles():
     eile_1 = f"| {'1' if tinklelis[0] == ' ' else tinklelis[0]} | {'2' if tinklelis[1] == ' ' else tinklelis[1]} | {'3' if tinklelis[2] == ' ' else tinklelis[2]} |"
